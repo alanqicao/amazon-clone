@@ -1,12 +1,22 @@
-import React from 'react'
+import React from 'react';
+import "../css/Header.css";
+import {Link} from "react-router-dom"
 
 function Header() {
   return (
-    <div>
+    <nav className="header">
+      <Link to= "/" >
+      
+      <img className="header__logo"
+          src="http://pngimg.com/uploads/amazon/amazon_PNG11.png"
+          alt=""
+      />
+      </Link>
       {/* logo on the left ->> img */}
       {/* search box */}
-      {/*  */}
-    </div>
+      {/* 3 links */}
+      
+    </nav>
   )
 }
 

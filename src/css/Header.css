@@ -1,6 +1,8 @@
 
 .header {
   background-color: #131921;
+  display: flex;
+  align-items: center;
 }
 
 .header__logo {
@@ -8,5 +10,9 @@
   margin-left: 20px;
   margin-right: 20px;
   margin-top:  18px;
+}
+
+.header__searchIcon {
+  background-color: #cd9042;
 }
 
